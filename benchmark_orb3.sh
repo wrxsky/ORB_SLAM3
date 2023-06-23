@@ -2,8 +2,8 @@
 
 # set the index of the dataset(default 01), and the directory of datasets
 index=${1:-01}
-dir=${2:-"/home/runxin/Documents/SLAM_Dataset/Mohd"}
-ds_name=Mohd_${index}
+dir=${2:-"/home/runxin/Documents/SLAM_Dataset/MohD_ds"}
+ds_name=MohD_${index}
 ds_path=${dir}/${ds_name}
 
 
@@ -15,7 +15,7 @@ echo "Dataset Path: ${ds_path}"
 # Mono Mode
 slam_cmd="./Examples/Monocular/mono_euroc \
     ./Vocabulary/ORBvoc.txt \
-    ./Examples/Monocular/Mohd_mono.yaml \
+    ./ORB3_MohD_config/Mohd_mono.yaml \
     ${ds_path} \
     ${ds_path}/Mohd_Timestamps_for_ORBSLAM.txt"
 echo "Currently executing: ${slam_cmd}"
@@ -34,7 +34,7 @@ fi
 # Stereo Mode
 slam_cmd="./Examples/Stereo/stereo_euroc \
     ./Vocabulary/ORBvoc.txt \
-    ./Examples/Stereo/Mohd_stereo.yaml \
+    ./ORB3_MohD_config/Mohd_stereo.yaml \
     ${ds_path} \
     ${ds_path}/Mohd_Timestamps_for_ORBSLAM.txt"
 echo "Currently executing: ${slam_cmd}"
@@ -52,7 +52,7 @@ fi
 # Stereo-i Mode
 slam_cmd="./Examples/Stereo-Inertial/stereo_inertial_euroc \
     ./Vocabulary/ORBvoc.txt \
-    ./Examples/Stereo-Inertial/Mohd_stereo_i.yaml \
+    ./ORB3_MohD_config/Mohd_stereo_i.yaml \
     ${ds_path} \
     ${ds_path}/Mohd_Timestamps_for_ORBSLAM.txt"
 echo "Currently executing: ${slam_cmd}"
@@ -70,7 +70,7 @@ fi
 # RGBD Mode
 slam_cmd="./Examples/RGB-D/rgbd_tum \
     ./Vocabulary/ORBvoc.txt \
-    ./Examples/RGB-D/Mohd_rgbd.yaml \
+    ./ORB3_MohD_config/Mohd_rgbd.yaml \
     ${ds_path} \
     ${ds_path}/Mohd_TUM_associations.txt"
 echo "Currently executing: ${slam_cmd}"

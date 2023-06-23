@@ -67,8 +67,8 @@ Thirdparty/g2o/lib/
 Vocabulary/ORBvoc.txt
 build/
 dataset/
+Results/
 
-*Mohd*
 *.zip
 
 lib/

@@ -5,7 +5,7 @@ Source：https://blog.csdn.net/kuvinxu/article/details/126233165
 ## change 1 
 https://blog.csdn.net/kuvinxu/article/details/126233165
 
-5.2 运行单目 -> mono_euroc.cc -> l 83 -> false to true to aktivate GUI
+5.2 Running Mono -> mono_euroc.cc -> l 83 -> false to true to aktivate GUI
 ## change 2
 https://blog.csdn.net/weixin_59058976/article/details/121710474?spm=1001.2101.3001.6650.2&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-2-121710474-blog-124587201.235%5Ev28%5Epc_relevant_recovery_v2&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-2-121710474-blog-124587201.235%5Ev28%5Epc_relevant_recovery_v2&utm_relevant_index=5
 
